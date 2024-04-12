@@ -25,7 +25,8 @@ class CalculatorServiceTests {
             Arguments.of(new CalculatorDTO(1, 2)),
             Arguments.of(new CalculatorDTO(3, 5)),
             Arguments.of(new CalculatorDTO(10, -2)),
-                Arguments.of(new CalculatorDTO(10, -2))
+            Arguments.of(new CalculatorDTO(10, -2)),
+            Arguments.of(new CalculatorDTO(10, -2))
         );
     }
 
